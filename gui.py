@@ -3,17 +3,15 @@ import os
 import sys
 from pathlib import Path
 
-import cv2
-import numpy as np
 from PyQt6.QtCore import Qt, QThread, pyqtSignal
-from PyQt6.QtGui import QImage, QPixmap
-from PyQt6.QtWidgets import (QApplication, QFileDialog, QGridLayout, QGroupBox,
-                             QHBoxLayout, QLabel, QMainWindow, QMessageBox,
-                             QProgressBar, QPushButton, QScrollArea, QSpinBox,
-                             QSplitter, QTabWidget, QVBoxLayout, QWidget)
+from PyQt6.QtGui import QPixmap
+from PyQt6.QtWidgets import (QApplication, QFileDialog, QGroupBox, QHBoxLayout,
+                             QLabel, QMainWindow, QMessageBox, QProgressBar,
+                             QPushButton, QScrollArea, QSpinBox, QSplitter,
+                             QVBoxLayout, QWidget)
 
 # Importar funcionalidad existente
-from main import process_image
+from process import process_image
 
 
 class ImageProcessorThread(QThread):
