@@ -2,3 +2,5 @@ opencv-python
 rembg
 numpy
 pillow
+PyQt6
+onnxruntime
