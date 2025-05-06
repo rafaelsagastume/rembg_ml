@@ -27,3 +27,6 @@ Proyecto para eliminar fondos de objetos usando machine learning.
    cd rembg_ml
    pip install -r requirements.txt
    ```
+## GUI
+
+![Screenshot from 2025-05-06 08-43-07](https://github.com/user-attachments/assets/169004bd-0b40-494f-b5c7-e5698fbb32ac)
